@@ -160,6 +160,7 @@ body {
 
 @media (max-width: 950px) {
     .socialProof {
+        margin-bottom: 4rem;
         display: grid;
         grid-template-columns: repeat(6, 1fr);
         grid-template-areas:

@@ -1,179 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-    <link rel="stylesheet" href="css/styles.css">
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
 
-    <title>Frontend Mentor | Social proof section</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <style>
+    .attribution {position: fixed; bottom: 0; box-shadow: 0 0 10px rgba(0, 0, 0, 0.274); border-radius: 10px; padding: 5px; background-color: rgb(255, 255, 255); max-width:max-content; width: 90%; margin: 10px auto; font-size: 12px; font-family: sans-serif; text-align: center; letter-spacing: 2px; color: rgba(0, 0, 0, 0.61);}
+    .attribution a { position: relative; display: inline-block; transition: .3s; color: hsl(228, 45%, 44%); text-decoration: none; font-weight: bold; }
+    .attribution a::after { transition: .3s; content: " "; width: 0; height: 2px; background-color: rgb(38, 0, 255); position: absolute; inset: 0; top: 13px; left: 50%;}
+    .attribution a:hover::after { width: 100%; transform: translateX(-50%);}
+  </style>
+  <title>Frontend Mentor | Social proof section</title>
 
-   
-  </head>
-  <body>
-    <main class="main">
-      
+</head>
 
-      <section class="socialProof">
+<body>
+  <main class="main">
 
+    <section class="socialProof">
 
+      <div class="socialProof__texts">
+        <h1 class="socialProof__title">10,000+ of our users love our products.</h1>
+        <p class="socialProof__paragraph">We only provide great products combined with excellent customer service.
+          See what our satisfied customers are saying about our services.</p>
+      </div>
 
+      <div class="socialProof__reviews">
 
-        <div class="socialProof__texts">
-          <h1 class="socialProof__title">10,000+ of our users love our products.</h1>
-          <p class="socialProof__paragraph">We only provide great products combined with excellent customer service.
-            See what our satisfied customers are saying about our services.</p>
-        </div>
+        <div class="socialProof__review1 reviews">
 
+          <div class="reviewsContainer">
 
-        
-
-
-        <div class="socialProof__reviews">
-
-          <div class="socialProof__review1 reviews">
-
-            <div class="reviewsContainer">
-
-              <div class="socialProof__reviewStars">
-                <img src="images/icon-star.svg" alt="Star icon" class="socialProof__reviewStars">
-                <img src="images/icon-star.svg" alt="Star icon" class="socialProof__reviewStars">
-                <img src="images/icon-star.svg" alt="Star icon" class="socialProof__reviewStars">
-                <img src="images/icon-star.svg" alt="Star icon" class="socialProof__reviewStars">
-                <img src="images/icon-star.svg" alt="Star icon" class="socialProof__reviewStars">
-              </div>
-  
-              <p class="sicualProof__reviewText">Rated 5 Stars in Reviews</p>
-
+            <div class="socialProof__reviewStars">
+              <img src="images/icon-star.svg" alt="Star icon" class="socialProof__reviewStars">
+              <img src="images/icon-star.svg" alt="Star icon" class="socialProof__reviewStars">
+              <img src="images/icon-star.svg" alt="Star icon" class="socialProof__reviewStars">
+              <img src="images/icon-star.svg" alt="Star icon" class="socialProof__reviewStars">
+              <img src="images/icon-star.svg" alt="Star icon" class="socialProof__reviewStars">
             </div>
 
-          </div>
-
-          
-          <div class="socialProof__review2 reviews">
-
-            <div class="reviewsContainer">
-              <div class="socialProof__reviewStars">
-                <img src="images/icon-star.svg" alt="Star icon">
-                <img src="images/icon-star.svg" alt="Star icon" class="socialProof__reviewStars">
-                <img src="images/icon-star.svg" alt="Star icon" class="socialProof__reviewStars">
-                <img src="images/icon-star.svg" alt="Star icon" class="socialProof__reviewStars">
-                <img src="images/icon-star.svg" alt="Star icon" class="socialProof__reviewStars">
-              </div>
-              
-              <p class="sicualProof__reviewText">Rated 5 Stars in Report Guru</p>
-
-            </div>
-
-            
-
-          </div>
-
-          <div class="socialProof__review3 reviews">
-
-            <div class="reviewsContainer">
-
-              <div class="socialProof__reviewStars">
-                <img src="images/icon-star.svg" alt="Star icon">
-                <img src="images/icon-star.svg" alt="Star icon" class="socialProof__reviewStars">
-                <img src="images/icon-star.svg" alt="Star icon" class="socialProof__reviewStars">
-                <img src="images/icon-star.svg" alt="Star icon" class="socialProof__reviewStars">
-                <img src="images/icon-star.svg" alt="Star icon" class="socialProof__reviewStars">
-              </div>
-              
-              <p class="sicualProof__reviewText">Rated 5 Stars in BestTech</p>
-            </div>
+            <p class="sicualProof__reviewText">Rated 5 Stars in Reviews</p>
 
           </div>
 
         </div>
 
+        <div class="socialProof__review2 reviews">
 
-
-
-
-        <div class="socialProof__opinions">
-
-          <div class="socialProof__opinion1 opinions">
-
-            <div class="socialProof__opinionsData">
-
-              <img src="images/image-colton.jpg" alt="Person img">
-  
-              <div class="socialProof__opinionsText">
-  
-                <p class="socialProof__name">Colton Smith </p>
-                <p class="socialProof__verified">Verified Buyer</p>
-  
-              </div>
-  
+          <div class="reviewsContainer">
+            <div class="socialProof__reviewStars">
+              <img src="images/icon-star.svg" alt="Star icon">
+              <img src="images/icon-star.svg" alt="Star icon" class="socialProof__reviewStars">
+              <img src="images/icon-star.svg" alt="Star icon" class="socialProof__reviewStars">
+              <img src="images/icon-star.svg" alt="Star icon" class="socialProof__reviewStars">
+              <img src="images/icon-star.svg" alt="Star icon" class="socialProof__reviewStars">
             </div>
 
-            <p class="socialProof__opinionsParagraph">"We needed the same printed design as the one we had ordered a week prior.
-              Not only did they find the original order, but we also received it in time.
-              Excellent!"</p>
-
-          </div>
-
-
-
-          <div class="socialProof__opinion2 opinions">
-
-            <div class="socialProof__opinionsData">
-            
-              <img src="images/image-irene.jpg" alt="Person img">
-  
-              <div class="socialProof__opinionsText">
-  
-                <p class="socialProof__name">Irene Roberts</p>
-                <p class="socialProof__verified">Verified Buyer</p>
-  
-              </div>
-
-            </div>
-
-            <p class="socialProof__opinionsParagraph">"Customer service is always excellent and very quick turn around. Completely
-              delighted with the simplicity of the purchase and the speed of delivery."</p>
-
-          </div>
-
-          
-          <div class="socialProof__opinion3 opinions">
-
-            <div class="socialProof__opinionsData">
-            
-              <img src="images/image-anne.jpg" alt="Person img">
-  
-              <div class="socialProof__opinionsText">
-  
-                <p class="socialProof__name">Anne Wallace  </p>
-                <p class="socialProof__verified">Verified Buyer</p>
-  
-              </div>
-  
-  
-            </div>
-
-            <p class="socialProof__opinionsParagraph">"Put an order with this company and can only praise them for the very high
-              standard. Will definitely use them again and recommend them to everyone!"</p>
-
+            <p class="sicualProof__reviewText">Rated 5 Stars in Report Guru</p>
 
           </div>
 
         </div>
-      </section>
 
-    </main>
- 
+        <div class="socialProof__review3 reviews">
 
-    
-  </body>
-  
+          <div class="reviewsContainer">
+
+            <div class="socialProof__reviewStars">
+              <img src="images/icon-star.svg" alt="Star icon">
+              <img src="images/icon-star.svg" alt="Star icon" class="socialProof__reviewStars">
+              <img src="images/icon-star.svg" alt="Star icon" class="socialProof__reviewStars">
+              <img src="images/icon-star.svg" alt="Star icon" class="socialProof__reviewStars">
+              <img src="images/icon-star.svg" alt="Star icon" class="socialProof__reviewStars">
+            </div>
+
+            <p class="sicualProof__reviewText">Rated 5 Stars in BestTech</p>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="socialProof__opinions">
+
+        <div class="socialProof__opinion1 opinions">
+
+          <div class="socialProof__opinionsData">
+
+            <img src="images/image-colton.jpg" alt="Person img">
+
+            <div class="socialProof__opinionsText">
+
+              <p class="socialProof__name">Colton Smith </p>
+              <p class="socialProof__verified">Verified Buyer</p>
+
+            </div>
+
+          </div>
+
+          <p class="socialProof__opinionsParagraph">"We needed the same printed design as the one we had ordered a week
+            prior.
+            Not only did they find the original order, but we also received it in time.
+            Excellent!"</p>
+
+        </div>
+
+        <div class="socialProof__opinion2 opinions">
+
+          <div class="socialProof__opinionsData">
+
+            <img src="images/image-irene.jpg" alt="Person img">
+
+            <div class="socialProof__opinionsText">
+
+              <p class="socialProof__name">Irene Roberts</p>
+              <p class="socialProof__verified">Verified Buyer</p>
+
+            </div>
+
+          </div>
+
+          <p class="socialProof__opinionsParagraph">"Customer service is always excellent and very quick turn around.
+            Completely
+            delighted with the simplicity of the purchase and the speed of delivery."</p>
+
+        </div>
+
+        <div class="socialProof__opinion3 opinions">
+
+          <div class="socialProof__opinionsData">
+
+            <img src="images/image-anne.jpg" alt="Person img">
+
+            <div class="socialProof__opinionsText">
+
+              <p class="socialProof__name">Anne Wallace </p>
+              <p class="socialProof__verified">Verified Buyer</p>
+
+            </div>
+
+          </div>
+
+          <p class="socialProof__opinionsParagraph">"Put an order with this company and can only praise them for the
+            very high
+            standard. Will definitely use them again and recommend them to everyone!"</p>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/KTrick01">Eduardo Fleitas</a>.
+  </div>
+</body>
+
 </html>
-
